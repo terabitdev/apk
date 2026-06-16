@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="70.0dip" android:width="70.0dip" android:viewportWidth="70.0" android:viewportHeight="70.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$original_audio_avatar__0" android:pathData="M35,0L35,0A35,35 0,0 1,70 35L70,35A35,35 0,0 1,35 70L35,70A35,35 0,0 1,0 35L0,35A35,35 0,0 1,35 0z" />
+    <path android:fillColor="#00000000" android:pathData="M35,0.438L35,0.438A34.563,34.563 0,0 1,69.563 35L69.563,35A34.563,34.563 0,0 1,35 69.563L35,69.563A34.563,34.563 0,0 1,0.438 35L0.438,35A34.563,34.563 0,0 1,35 0.438z" android:strokeColor="#ff000000" android:strokeWidth="0.875" android:strokeAlpha="0.04" />
+    <path android:fillColor="#ff000000" android:pathData="M25.667,35C25.667,29.845 29.845,25.667 35,25.667C40.155,25.667 44.333,29.845 44.333,35V36.333H40.333C39.597,36.333 39,36.93 39,37.667V45.667C39,46.403 39.597,47 40.333,47H45.667C46.403,47 47,46.403 47,45.667V35C47,28.823 42.333,23.736 36.333,23.073V23H35C28.373,23 23,28.373 23,35V45.667C23,46.403 23.597,47 24.333,47H29.667C30.403,47 31,46.403 31,45.667V37.667C31,36.93 30.403,36.333 29.667,36.333H25.667V35Z" />
+</vector>

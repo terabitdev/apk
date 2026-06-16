@@ -1,0 +1,60 @@
+package io.elevenlabs.readerapp.ui.screens.authenticated.account;
+
+import kotlin.Metadata;
+import livekit.LivekitInternal$NodeStats;
+import sn.z;
+
+/* compiled from: r8-map-id-69a07f5dcb9675c577f44413585e7422b44cd89b2b565101e801beb7a055dae0 */
+@Metadata(k = 3, mv = {2, 3, 0}, xi = LivekitInternal$NodeStats.FORWARD_LATENCY_FIELD_NUMBER)
+/* loaded from: classes4.dex */
+public final class ComposableSingletons$ManagePurchasesScreenKt {
+    public static final ComposableSingletons$ManagePurchasesScreenKt INSTANCE = new ComposableSingletons$ManagePurchasesScreenKt();
+
+    /* renamed from: lambda$-576182259 */
+    private static ho.p f199lambda$576182259 = new c3.j(new l(1), false, -576182259);
+
+    public static final z lambda__576182259$lambda$0(u2.m mVar, int i10) {
+        boolean z6;
+        if ((i10 & 3) != 2) {
+            z6 = true;
+        } else {
+            z6 = false;
+        }
+        u2.q qVar = (u2.q) mVar;
+        if (qVar.O(i10 & 1, z6)) {
+            Object L = qVar.L();
+            u2.e eVar = u2.l.f33918a;
+            if (L == eVar) {
+                L = new k(4);
+                qVar.h0(L);
+            }
+            ho.a aVar = (ho.a) L;
+            Object L2 = qVar.L();
+            if (L2 == eVar) {
+                L2 = new k(5);
+                qVar.h0(L2);
+            }
+            ho.a aVar2 = (ho.a) L2;
+            Object L3 = qVar.L();
+            if (L3 == eVar) {
+                L3 = new k(6);
+                qVar.h0(L3);
+            }
+            ho.a aVar3 = (ho.a) L3;
+            Object L4 = qVar.L();
+            if (L4 == eVar) {
+                L4 = new k(7);
+                qVar.h0(L4);
+            }
+            ManagePurchasesScreenKt.ManagePurchasesScreenUI(false, aVar, aVar2, aVar3, (ho.a) L4, qVar, 28086);
+        } else {
+            qVar.R();
+        }
+        return z.f31622a;
+    }
+
+    /* renamed from: getLambda$-576182259$app_productionRelease */
+    public final ho.p m1221getLambda$576182259$app_productionRelease() {
+        return f199lambda$576182259;
+    }
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="collection_books_plurals">
+        <item quantity="other">books</item>
+        <item quantity="zero">books</item>
+        <item quantity="one">book</item>
+        <item quantity="two">books</item>
+        <item quantity="few">books</item>
+        <item quantity="many">books</item>
+    </plurals>
+    <plurals name="collection_episodes_plurals">
+        <item quantity="other">episodes</item>
+        <item quantity="zero">episodes</item>
+        <item quantity="one">episode</item>
+        <item quantity="two">episodes</item>
+        <item quantity="few">episodes</item>
+        <item quantity="many">episodes</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Fast forward %d seconds</item>
+        <item quantity="one">Fast forward %d second</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rewind %d seconds</item>
+        <item quantity="one">Rewind %d second</item>
+    </plurals>
+    <plurals name="explore_read_narrated_by_plurals">
+        <item quantity="other">Narrated by %s</item>
+        <item quantity="zero">Narrated by %s</item>
+        <item quantity="one">Narrated by %s</item>
+        <item quantity="two">Narrated by %s</item>
+        <item quantity="few">Narrated by %s</item>
+        <item quantity="many">Narrated by %s</item>
+    </plurals>
+    <plurals name="player_clear_queue_confirmation_text_plurals">
+        <item quantity="other">Your listening queue has %d items. Are you sure you want to clear the queue and play this item now?</item>
+        <item quantity="zero">Your listening queue has %d items. Are you sure you want to clear the queue and play this item now?</item>
+        <item quantity="one">Your listening queue has %d item. Are you sure you want to clear the queue and play this item now?</item>
+        <item quantity="two">Your listening queue has %d items. Are you sure you want to clear the queue and play this item now?</item>
+        <item quantity="few">Your listening queue has %d items. Are you sure you want to clear the queue and play this item now?</item>
+        <item quantity="many">Your listening queue has %d items. Are you sure you want to clear the queue and play this item now?</item>
+    </plurals>
+    <plurals name="products_credits_no_number_android_plurals">
+        <item quantity="other">credits</item>
+        <item quantity="zero">credits</item>
+        <item quantity="one">credit</item>
+        <item quantity="two">credits</item>
+        <item quantity="few">credits</item>
+        <item quantity="many">credits</item>
+    </plurals>
+    <plurals name="products_credits_plurals">
+        <item quantity="other">%d credits</item>
+        <item quantity="zero">%d credits</item>
+        <item quantity="one">%d credit</item>
+        <item quantity="two">%d credits</item>
+        <item quantity="few">%d credits</item>
+        <item quantity="many">%d credits</item>
+    </plurals>
+    <plurals name="read_search_results_plurals">
+        <item quantity="other">%s results found</item>
+        <item quantity="zero">no results found</item>
+        <item quantity="one">%s result found</item>
+        <item quantity="two">%s results found</item>
+        <item quantity="few">%s results found</item>
+        <item quantity="many">%s results found</item>
+    </plurals>
+    <plurals name="referral_sheet_subscription_activated_months_plurals">
+        <item quantity="other">You have successfully activated a %s month Ultra subscription</item>
+        <item quantity="one">You have successfully activated a %s month Ultra subscription</item>
+        <item quantity="two">You have successfully activated a %s month Ultra subscription</item>
+        <item quantity="few">You have successfully activated a %s month Ultra subscription</item>
+        <item quantity="many">You have successfully activated a %s month Ultra subscription</item>
+    </plurals>
+    <plurals name="series_section_subtitle_plurals">
+        <item quantity="other">%d book series</item>
+        <item quantity="zero">%d book series</item>
+        <item quantity="one">%d book series</item>
+        <item quantity="two">%d book series</item>
+        <item quantity="few">%d book series</item>
+        <item quantity="many">%d book series</item>
+    </plurals>
+    <plurals name="time_days_long_plurals">
+        <item quantity="other">%d days</item>
+        <item quantity="zero">%d days</item>
+        <item quantity="one">%d day</item>
+        <item quantity="two">%d days</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
+    </plurals>
+    <plurals name="time_hours_long_plurals">
+        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d hours</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="two">%d hours</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+    </plurals>
+    <plurals name="time_hours_plurals">
+        <item quantity="other">%d hrs</item>
+        <item quantity="zero">%d hr</item>
+        <item quantity="one">%d hr</item>
+        <item quantity="two">%d hrs</item>
+        <item quantity="few">%d hrs</item>
+        <item quantity="many">%d hrs</item>
+    </plurals>
+    <plurals name="time_minutes_long_plurals">
+        <item quantity="other">%d minutes</item>
+        <item quantity="zero">%d minutes</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="two">%d minutes</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
+    </plurals>
+    <plurals name="time_minutes_plurals">
+        <item quantity="other">%d mins</item>
+        <item quantity="zero">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d mins</item>
+        <item quantity="few">%d mins</item>
+        <item quantity="many">%d mins</item>
+    </plurals>
+    <plurals name="time_months_long_plurals">
+        <item quantity="other">%d months</item>
+        <item quantity="zero">%d months</item>
+        <item quantity="one">%d month</item>
+        <item quantity="two">%d months</item>
+        <item quantity="few">%d months</item>
+        <item quantity="many">%d months</item>
+    </plurals>
+    <plurals name="time_weeks_long_plurals">
+        <item quantity="other">%d weeks</item>
+        <item quantity="zero">%d weeks</item>
+        <item quantity="one">%d week</item>
+        <item quantity="two">%d weeks</item>
+        <item quantity="few">%d weeks</item>
+        <item quantity="many">%d weeks</item>
+    </plurals>
+    <plurals name="time_years_long_plurals">
+        <item quantity="other">%d years</item>
+        <item quantity="zero">%d years</item>
+        <item quantity="one">%d year</item>
+        <item quantity="two">%d years</item>
+        <item quantity="few">%d years</item>
+        <item quantity="many">%d years</item>
+    </plurals>
+</resources>

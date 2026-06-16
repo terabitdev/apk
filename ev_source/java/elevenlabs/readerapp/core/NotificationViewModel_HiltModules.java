@@ -1,0 +1,31 @@
+package io.elevenlabs.readerapp.core;
+
+import androidx.lifecycle.j1;
+
+/* compiled from: r8-map-id-69a07f5dcb9675c577f44413585e7422b44cd89b2b565101e801beb7a055dae0 */
+/* loaded from: classes3.dex */
+public final class NotificationViewModel_HiltModules {
+
+    /* compiled from: r8-map-id-69a07f5dcb9675c577f44413585e7422b44cd89b2b565101e801beb7a055dae0 */
+    /* loaded from: classes3.dex */
+    public static abstract class BindsModule {
+        private BindsModule() {
+        }
+
+        public abstract j1 binds(NotificationViewModel notificationViewModel);
+    }
+
+    /* compiled from: r8-map-id-69a07f5dcb9675c577f44413585e7422b44cd89b2b565101e801beb7a055dae0 */
+    /* loaded from: classes3.dex */
+    public static final class KeyModule {
+        private KeyModule() {
+        }
+
+        public static boolean provide() {
+            return true;
+        }
+    }
+
+    private NotificationViewModel_HiltModules() {
+    }
+}

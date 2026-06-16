@@ -1,0 +1,16 @@
+package io.elevenlabs.readerapp.ui.components.homev3;
+
+import hd.b;
+import kotlin.Metadata;
+import livekit.LivekitInternal$NodeStats;
+
+/* compiled from: r8-map-id-69a07f5dcb9675c577f44413585e7422b44cd89b2b565101e801beb7a055dae0 */
+@Metadata(d1 = {"\u0000\b\n\u0002\u0018\u0002\n\u0002\b\u0005\"\u0017\u0010\u0001\u001a\u00020\u00008\u0006¢\u0006\f\n\u0004\b\u0001\u0010\u0002\u001a\u0004\b\u0003\u0010\u0004¨\u0006\u0005"}, d2 = {"Lhd/b;", "PreviewGenreTilesGridRowV3DefaultGroupPreviewGenreTilesGridRowV3", "Lhd/b;", "getPreviewGenreTilesGridRowV3DefaultGroupPreviewGenreTilesGridRowV3", "()Lhd/b;", "app_productionRelease"}, k = 2, mv = {2, 3, 0}, xi = LivekitInternal$NodeStats.FORWARD_LATENCY_FIELD_NUMBER)
+/* loaded from: classes3.dex */
+public final class PreviewGenreTilesGridRowV3DefaultGroupPreviewGenreTilesGridRowV3Kt {
+    private static final b PreviewGenreTilesGridRowV3DefaultGroupPreviewGenreTilesGridRowV3 = new b("io.elevenlabs.readerapp.ui.components.homev3_Preview_GenreTilesGridRowV3_null_DefaultGroup_Preview_GenreTilesGridRowV3_0_null", "Default Group", "Preview_GenreTilesGridRowV3", ComposableSingletons$PreviewGenreTilesGridRowV3DefaultGroupPreviewGenreTilesGridRowV3Kt.INSTANCE.m1172getLambda$1807990041$app_productionRelease(), null, 1952);
+
+    public static final b getPreviewGenreTilesGridRowV3DefaultGroupPreviewGenreTilesGridRowV3() {
+        return PreviewGenreTilesGridRowV3DefaultGroupPreviewGenreTilesGridRowV3;
+    }
+}

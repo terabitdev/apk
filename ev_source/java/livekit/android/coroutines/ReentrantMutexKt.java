@@ -1,0 +1,22 @@
+package io.livekit.android.coroutines;
+
+import android.gov.nist.javax.sip.parser.TokenNames;
+import fr.g0;
+import ho.l;
+import kotlin.Metadata;
+import livekit.LivekitInternal$NodeStats;
+import or.a;
+import wn.c;
+
+/* compiled from: r8-map-id-69a07f5dcb9675c577f44413585e7422b44cd89b2b565101e801beb7a055dae0 */
+@Metadata(d1 = {"\u0000\u0016\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0004\u001a8\u0010\u0006\u001a\u00028\u0000\"\u0004\b\u0000\u0010\u0000*\u00020\u00012\u001c\u0010\u0005\u001a\u0018\b\u0001\u0012\n\u0012\b\u0012\u0004\u0012\u00028\u00000\u0003\u0012\u0006\u0012\u0004\u0018\u00010\u00040\u0002H\u0080@¢\u0006\u0004\b\u0006\u0010\u0007¨\u0006\b"}, d2 = {TokenNames.T, "Lor/a;", "Lkotlin/Function1;", "Lwn/c;", "", "block", "withReentrantLock", "(Lor/a;Lho/l;Lwn/c;)Ljava/lang/Object;", "livekit-android-sdk_release"}, k = 2, mv = {1, 9, 0}, xi = LivekitInternal$NodeStats.FORWARD_LATENCY_FIELD_NUMBER)
+/* loaded from: classes4.dex */
+public final class ReentrantMutexKt {
+    public static final <T> Object withReentrantLock(a aVar, l lVar, c<? super T> cVar) {
+        ReentrantMutexContextKey reentrantMutexContextKey = new ReentrantMutexContextKey(aVar);
+        if (cVar.getContext().get(reentrantMutexContextKey) != null) {
+            return lVar.invoke(cVar);
+        }
+        return g0.Q(new ReentrantMutexContextElement(reentrantMutexContextKey), new ReentrantMutexKt$withReentrantLock$2(aVar, lVar, null), cVar);
+    }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="16.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$musical_note_filled_colorized__0" android:pathData="M11.807,3.153C12.235,3.025 12.665,3.345 12.665,3.792V8.314C12.26,8.111 11.799,8 11.332,8C9.978,8 8.665,8.936 8.665,10.333C8.665,11.73 9.978,12.667 11.332,12.667C12.686,12.667 13.998,11.73 13.998,10.333V3.792C13.998,2.452 12.707,1.491 11.424,1.876L7.424,3.076C6.578,3.33 5.999,4.109 5.999,4.992V10.314C5.594,10.111 5.132,10 4.665,10C3.311,10 1.999,10.936 1.999,12.333C1.999,13.73 3.311,14.667 4.665,14.667C6.019,14.667 7.332,13.73 7.332,12.333V4.992C7.332,4.697 7.525,4.438 7.807,4.353L11.807,3.153Z" />
+</vector>

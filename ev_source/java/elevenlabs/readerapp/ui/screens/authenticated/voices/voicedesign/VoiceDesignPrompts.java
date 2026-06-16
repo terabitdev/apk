@@ -1,0 +1,22 @@
+package io.elevenlabs.readerapp.ui.screens.authenticated.voices.voicedesign;
+
+import io.elevenlabs.readerapp.R;
+import java.util.List;
+import kotlin.Metadata;
+import livekit.LivekitInternal$NodeStats;
+
+/* compiled from: r8-map-id-69a07f5dcb9675c577f44413585e7422b44cd89b2b565101e801beb7a055dae0 */
+@Metadata(d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0003\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003R\u0017\u0010\u0004\u001a\b\u0012\u0004\u0012\u00020\u00060\u0005¢\u0006\b\n\u0000\u001a\u0004\b\u0007\u0010\b¨\u0006\t"}, d2 = {"Lio/elevenlabs/readerapp/ui/screens/authenticated/voices/voicedesign/VoiceDesignPrompts;", "", "<init>", "()V", "ALL_PROMPTS", "", "Lio/elevenlabs/readerapp/ui/screens/authenticated/voices/voicedesign/VoiceDesignPrompt;", "getALL_PROMPTS", "()Ljava/util/List;", "app_productionRelease"}, k = 1, mv = {2, 3, 0}, xi = LivekitInternal$NodeStats.FORWARD_LATENCY_FIELD_NUMBER)
+/* loaded from: classes4.dex */
+public final class VoiceDesignPrompts {
+    public static final VoiceDesignPrompts INSTANCE = new VoiceDesignPrompts();
+    private static final List<VoiceDesignPrompt> ALL_PROMPTS = ig.f.I(new VoiceDesignPrompt("fresh_young_woman", R.string.voice_design_prompt_fresh_young_woman_name, R.string.voice_design_prompt_fresh_young_woman_text), new VoiceDesignPrompt("whisper_intimate_confidant", R.string.voice_design_prompt_whisper_intimate_confidant_name, R.string.voice_design_prompt_whisper_intimate_confidant_text), new VoiceDesignPrompt("gentle_guide_woman", R.string.voice_design_prompt_gentle_guide_woman_name, R.string.voice_design_prompt_gentle_guide_woman_text), new VoiceDesignPrompt("magnetic_male", R.string.voice_design_prompt_magnetic_male_name, R.string.voice_design_prompt_magnetic_male_text), new VoiceDesignPrompt("soothing_calm_healer", R.string.voice_design_prompt_soothing_calm_healer_name, R.string.voice_design_prompt_soothing_calm_healer_text), new VoiceDesignPrompt("crisp_british_man", R.string.voice_design_prompt_crisp_british_man_name, R.string.voice_design_prompt_crisp_british_man_text), new VoiceDesignPrompt("sensual_spanish_woman", R.string.voice_design_prompt_sensual_spanish_woman_name, R.string.voice_design_prompt_sensual_spanish_woman_text), new VoiceDesignPrompt("romantic_british_woman", R.string.voice_design_prompt_romantic_british_woman_name, R.string.voice_design_prompt_romantic_british_woman_text), new VoiceDesignPrompt("clean_studio_male", R.string.voice_design_prompt_clean_studio_male_name, R.string.voice_design_prompt_clean_studio_male_text), new VoiceDesignPrompt("studio_quality_neutral", R.string.voice_design_prompt_studio_quality_neutral_name, R.string.voice_design_prompt_studio_quality_neutral_text), new VoiceDesignPrompt("bold_stage_woman", R.string.voice_design_prompt_bold_stage_woman_name, R.string.voice_design_prompt_bold_stage_woman_text), new VoiceDesignPrompt("gritty_noir_detective", R.string.voice_design_prompt_gritty_noir_detective_name, R.string.voice_design_prompt_gritty_noir_detective_text), new VoiceDesignPrompt("gravelly_southern_man", R.string.voice_design_prompt_gravelly_southern_man_name, R.string.voice_design_prompt_gravelly_southern_man_text), new VoiceDesignPrompt("epic_welsh_bard", R.string.voice_design_prompt_epic_welsh_bard_name, R.string.voice_design_prompt_epic_welsh_bard_text), new VoiceDesignPrompt("elegant_french_woman", R.string.voice_design_prompt_elegant_french_woman_name, R.string.voice_design_prompt_elegant_french_woman_text), new VoiceDesignPrompt("cozy_fireside_lady", R.string.voice_design_prompt_cozy_fireside_lady_name, R.string.voice_design_prompt_cozy_fireside_lady_text), new VoiceDesignPrompt("sharp_modern_man", R.string.voice_design_prompt_sharp_modern_man_name, R.string.voice_design_prompt_sharp_modern_man_text), new VoiceDesignPrompt("american_storyteller", R.string.voice_design_prompt_american_storyteller_name, R.string.voice_design_prompt_american_storyteller_text), new VoiceDesignPrompt("steady_british_male", R.string.voice_design_prompt_steady_british_male_name, R.string.voice_design_prompt_steady_british_male_text), new VoiceDesignPrompt("adventurous_explorer", R.string.voice_design_prompt_adventurous_explorer_name, R.string.voice_design_prompt_adventurous_explorer_text));
+    public static final int $stable = 8;
+
+    private VoiceDesignPrompts() {
+    }
+
+    public final List<VoiceDesignPrompt> getALL_PROMPTS() {
+        return ALL_PROMPTS;
+    }
+}
