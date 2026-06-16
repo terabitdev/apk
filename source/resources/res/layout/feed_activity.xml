@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fragment_container_feed" android:background="@color/background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_feed" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize">
+        <TextView android:id="@id/tv_toolbar_feed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/my_feed" style="@style/UptodownToolbarStyle" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/fl_fragment_container_feed" android:background="@color/background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_feed" />
+</RelativeLayout>

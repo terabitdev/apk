@@ -1,0 +1,116 @@
+package com.google.android.material.textfield;
+
+import android.graphics.Canvas;
+import android.graphics.RectF;
+import android.graphics.Region;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.shape.MaterialShapeDrawable;
+import com.google.android.material.shape.ShapeAppearanceModel;
+
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: r8-map-id-e907cdfad2df14fd92982b00c76004907cc554632fe47bc57470e213e2fdbf5b */
+/* loaded from: classes4.dex */
+public class CutoutDrawable extends MaterialShapeDrawable {
+
+    @NonNull
+    CutoutDrawableState drawableState;
+
+    /* compiled from: r8-map-id-e907cdfad2df14fd92982b00c76004907cc554632fe47bc57470e213e2fdbf5b */
+    /* loaded from: classes4.dex */
+    public static class ImplApi18 extends CutoutDrawable {
+        public ImplApi18(@NonNull CutoutDrawableState cutoutDrawableState) {
+            super(cutoutDrawableState);
+        }
+
+        @Override // com.google.android.material.shape.MaterialShapeDrawable
+        public void drawStrokeShape(@NonNull Canvas canvas) {
+            if (((CutoutDrawable) this).drawableState.cutoutBounds.isEmpty()) {
+                super.drawStrokeShape(canvas);
+                return;
+            }
+            canvas.save();
+            int i = Build.VERSION.SDK_INT;
+            CutoutDrawableState cutoutDrawableState = ((CutoutDrawable) this).drawableState;
+            if (i >= 26) {
+                canvas.clipOutRect(cutoutDrawableState.cutoutBounds);
+            } else {
+                canvas.clipRect(cutoutDrawableState.cutoutBounds, Region.Op.DIFFERENCE);
+            }
+            super.drawStrokeShape(canvas);
+            canvas.restore();
+        }
+    }
+
+    private CutoutDrawable(@NonNull CutoutDrawableState cutoutDrawableState) {
+        super(cutoutDrawableState);
+        this.drawableState = cutoutDrawableState;
+    }
+
+    public static CutoutDrawable create(@Nullable ShapeAppearanceModel shapeAppearanceModel) {
+        if (shapeAppearanceModel == null) {
+            shapeAppearanceModel = new ShapeAppearanceModel();
+        }
+        return create(new CutoutDrawableState(shapeAppearanceModel, new RectF()));
+    }
+
+    public boolean hasCutout() {
+        return !this.drawableState.cutoutBounds.isEmpty();
+    }
+
+    @Override // com.google.android.material.shape.MaterialShapeDrawable, android.graphics.drawable.Drawable
+    @NonNull
+    public Drawable mutate() {
+        this.drawableState = new CutoutDrawableState(this.drawableState);
+        return this;
+    }
+
+    public void removeCutout() {
+        setCutout(0.0f, 0.0f, 0.0f, 0.0f);
+    }
+
+    public void setCutout(float f7, float f10, float f11, float f12) {
+        if (f7 == this.drawableState.cutoutBounds.left && f10 == this.drawableState.cutoutBounds.top && f11 == this.drawableState.cutoutBounds.right && f12 == this.drawableState.cutoutBounds.bottom) {
+            return;
+        }
+        this.drawableState.cutoutBounds.set(f7, f10, f11, f12);
+        invalidateSelf();
+    }
+
+    /* compiled from: r8-map-id-e907cdfad2df14fd92982b00c76004907cc554632fe47bc57470e213e2fdbf5b */
+    /* loaded from: classes4.dex */
+    public static final class CutoutDrawableState extends MaterialShapeDrawable.MaterialShapeDrawableState {
+
+        @NonNull
+        private final RectF cutoutBounds;
+
+        private CutoutDrawableState(@NonNull CutoutDrawableState cutoutDrawableState) {
+            super(cutoutDrawableState);
+            this.cutoutBounds = cutoutDrawableState.cutoutBounds;
+        }
+
+        @Override // com.google.android.material.shape.MaterialShapeDrawable.MaterialShapeDrawableState, android.graphics.drawable.Drawable.ConstantState
+        @NonNull
+        public Drawable newDrawable() {
+            CutoutDrawable create = CutoutDrawable.create(this);
+            create.invalidateSelf();
+            return create;
+        }
+
+        private CutoutDrawableState(@NonNull ShapeAppearanceModel shapeAppearanceModel, @NonNull RectF rectF) {
+            super(shapeAppearanceModel, null);
+            this.cutoutBounds = rectF;
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static CutoutDrawable create(@NonNull CutoutDrawableState cutoutDrawableState) {
+        return new ImplApi18(cutoutDrawableState);
+    }
+
+    public void setCutout(@NonNull RectF rectF) {
+        setCutout(rectF.left, rectF.top, rectF.right, rectF.bottom);
+    }
+}

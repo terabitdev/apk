@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_card" android:background="@drawable/core_ripple_bg_card" android:focusable="true" android:layout_width="100.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_logo_card" android:layout_width="@dimen/icon_size_xl" android:layout_height="@dimen/icon_size_xl" android:layout_marginBottom="@dimen/margin_m" android:contentDescription="@null" app:srcCompat="@drawable/shape_bg_placeholder" />
+    <TextView android:id="@id/tv_titulo_card_holder" android:visibility="invisible" android:layout_marginTop="@dimen/margin_s" android:layout_below="@id/iv_logo_card" style="@style/CardTextViewHolder" />
+    <TextView android:gravity="center_horizontal" android:id="@id/tv_titulo_card" android:layout_marginTop="@dimen/margin_s" android:layout_below="@id/iv_logo_card" android:layout_centerHorizontal="true" style="@style/CardNameTextView" />
+    <TextView android:gravity="center_vertical" android:id="@id/tv_resumen_card_holder" android:visibility="invisible" android:lines="3" android:layout_below="@id/tv_titulo_card_holder" style="@style/CardTextViewHolder" />
+    <TextView android:gravity="center" android:id="@id/tv_resumen_card" android:maxLines="3" android:layout_below="@id/tv_titulo_card" android:layout_centerHorizontal="true" style="@style/CardDescriptionTextView" />
+    <TextView android:id="@id/tv_status_card" android:layout_below="@id/tv_titulo_card_holder" style="@style/TextViewAppInfoStatus" />
+    <View android:id="@id/view_bottom_card" android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_below="@id/tv_status_card" />
+</RelativeLayout>

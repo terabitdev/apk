@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:background="@drawable/ripple_blue_primary_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" android:includeFontPadding="false" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" style="?android:borderlessButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

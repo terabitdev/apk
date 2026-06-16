@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_old_versions_footer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_back_versions" android:background="@drawable/ripple_blue_primary_button" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_margin="10.0dip">
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_centerInParent="true" android:contentDescription="@null" app:srcCompat="@drawable/core_vector_back" app:tint="@color/white" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size_m" android:textColor="@color/main_blue" android:id="@id/tv_current_page_versions" android:background="@drawable/shape_stroke_blue_primary" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="1" android:layout_centerHorizontal="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <RelativeLayout android:id="@id/rl_forward_versions" android:background="@drawable/ripple_blue_primary_button" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_margin="10.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_centerInParent="true" android:contentDescription="@null" app:srcCompat="@drawable/vector_arrow_right" app:tint="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

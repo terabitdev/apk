@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_loading_view" android:background="@drawable/core_shape_circle_loading_view" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:elevation="6.0dip" android:outlineSpotShadowColor="@color/blue_primary" android:outlineAmbientShadowColor="@color/blue_primary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_width="20.0dip" android:layout_height="20.0dip" style="@style/CoreProgressBarLoadingContent" />
+</RelativeLayout>

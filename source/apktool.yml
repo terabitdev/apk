@@ -1,0 +1,66 @@
+version: 2.9.3
+apkFileName: 603e6c58-uptodownio.coreapp.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 23
+  targetSdkVersion: 35
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 731
+  versionName: 7.31
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  client_analytics.proto: 8
+  firebase-analytics.properties: 8
+  firebase-encoders-proto.properties: 8
+  firebase-encoders.properties: 8
+  firebase-iid-interop.properties: 8
+  firebase-measurement-connector.properties: 8
+  messaging_event.proto: 8
+  messaging_event_extension.proto: 8
+  play-services-ads-identifier.properties: 8
+  play-services-auth-api-phone.properties: 8
+  play-services-auth-base.properties: 8
+  play-services-auth.properties: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-cloud-messaging.properties: 8
+  play-services-fido.properties: 8
+  play-services-measurement-api.properties: 8
+  play-services-measurement-base.properties: 8
+  play-services-measurement-impl.properties: 8
+  play-services-measurement-sdk-api.properties: 8
+  play-services-measurement-sdk.properties: 8
+  play-services-measurement.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+  org/commonmark/internal/util/entities.properties: 8
+doNotCompress:
+- resources.arsc
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- lib/arm64-v8a/libandroidx.graphics.path.so
+- lib/arm64-v8a/libdatastore_shared_counter.so
+- lib/arm64-v8a/libuptodown-native.so
+- lib/armeabi-v7a/libandroidx.graphics.path.so
+- lib/armeabi-v7a/libdatastore_shared_counter.so
+- lib/armeabi-v7a/libuptodown-native.so
+- lib/x86/libandroidx.graphics.path.so
+- lib/x86/libdatastore_shared_counter.so
+- lib/x86/libuptodown-native.so
+- lib/x86_64/libandroidx.graphics.path.so
+- lib/x86_64/libdatastore_shared_counter.so
+- lib/x86_64/libuptodown-native.so
+- png
+- webp
+- ogg

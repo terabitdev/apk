@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/icon_size_xl" android:layout_height="@dimen/icon_size_xl" android:layout_marginBottom="@dimen/margin_l"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_avatar_item" android:layout_width="@dimen/icon_size_xl" android:layout_height="@dimen/icon_size_xl" android:contentDescription="@null" />
+    <ImageView android:id="@id/iv_checked_user_avatar" android:background="@drawable/shape_circle_avatar_checked" android:padding="6.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="12.0dip" android:layout_alignParentBottom="true" android:contentDescription="@null" android:layout_alignParentEnd="true" app:srcCompat="@drawable/vector_check" />
+    <RelativeLayout android:id="@id/rl_shadow_avatar_item" android:background="@drawable/shape_avatar_selected_turbo_item" android:layout_width="@dimen/icon_size_xl" android:layout_height="@dimen/icon_size_xl" />
+    <ImageView android:id="@id/iv_locked_item" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_alignParentBottom="true" android:contentDescription="@null" android:layout_alignParentEnd="true" app:srcCompat="@drawable/vector_lock" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_app_info_item" android:background="@drawable/core_ripple_bg_card" android:focusable="true" android:layout_width="250.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_logo_app_info_item" android:layout_width="@dimen/icon_size_l" android:layout_height="@dimen/icon_size_l" android:layout_marginLeft="@dimen/margin_m" android:layout_marginTop="@dimen/margin_s" android:layout_marginRight="@dimen/margin_m" android:layout_marginBottom="@dimen/margin_s" android:adjustViewBounds="true" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginHorizontal="@dimen/margin_m" android:layout_marginVertical="@dimen/margin_s" app:srcCompat="@drawable/vector_uptodown_logo_disabled" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_s" android:layout_toEndOf="@id/iv_logo_app_info_item">
+        <TextView android:id="@id/tv_name_app_info_item_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_s" style="@style/CardTextViewHolder" />
+        <TextView android:id="@id/tv_name_app_info_item" android:layout_marginTop="@dimen/margin_s" style="@style/CardNameTextView" />
+        <TextView android:id="@id/tv_desc_home_card_featured_item_holder" android:layout_below="@id/tv_name_app_info_item_holder" style="@style/CardTextViewHolder" />
+        <TextView android:id="@id/tv_desc_app_info_item" android:layout_below="@id/tv_name_app_info_item" style="@style/CardDescriptionTextView" />
+        <TextView android:id="@id/tv_status_app_info_item" android:visibility="gone" android:layout_below="@id/tv_name_app_info_item" android:layout_centerHorizontal="false" style="@style/TextViewAppInfoStatus" />
+    </RelativeLayout>
+</RelativeLayout>

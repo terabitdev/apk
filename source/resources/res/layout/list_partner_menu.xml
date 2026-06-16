@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cv_menu_item" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textColor="@color/textColor" android:id="@id/tv_menu_all" android:background="?android:selectableItemBackground" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ALL" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:paddingVertical="10.0dip" />
+        <TextView android:textColor="@color/textColor" android:id="@id/tv_menu_iab" android:background="?android:selectableItemBackground" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="IAB" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:paddingVertical="10.0dip" />
+        <TextView android:textColor="@color/textColor" android:id="@id/tv_menu_non_iab" android:background="?android:selectableItemBackground" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Non-IAB" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:paddingVertical="10.0dip" />
+        <TextView android:textColor="@color/textColor" android:id="@id/tv_menu_google" android:background="?android:selectableItemBackground" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Google" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:paddingVertical="10.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

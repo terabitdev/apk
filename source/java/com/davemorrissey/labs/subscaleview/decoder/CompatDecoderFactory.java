@@ -1,0 +1,30 @@
+package com.davemorrissey.labs.subscaleview.decoder;
+
+import android.graphics.Bitmap;
+import java.lang.reflect.InvocationTargetException;
+
+/* compiled from: r8-map-id-e907cdfad2df14fd92982b00c76004907cc554632fe47bc57470e213e2fdbf5b */
+/* loaded from: classes4.dex */
+public class CompatDecoderFactory<T> implements DecoderFactory<T> {
+    private final Bitmap.Config bitmapConfig;
+    private final Class<? extends T> clazz;
+
+    public CompatDecoderFactory(Class<? extends T> cls, Bitmap.Config config) {
+        this.clazz = cls;
+        this.bitmapConfig = config;
+    }
+
+    @Override // com.davemorrissey.labs.subscaleview.decoder.DecoderFactory
+    public T make() throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
+        Bitmap.Config config = this.bitmapConfig;
+        Class<? extends T> cls = this.clazz;
+        if (config == null) {
+            return cls.newInstance();
+        }
+        return cls.getConstructor(Bitmap.Config.class).newInstance(this.bitmapConfig);
+    }
+
+    public CompatDecoderFactory(Class<? extends T> cls) {
+        this(cls, null);
+    }
+}
